@@ -1,0 +1,32 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter/Notebooks
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.pkl
+*.h5
+*.npy
+*.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Model files (except the final saved ones)
+*.ckpt
